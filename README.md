@@ -1,3 +1,5 @@
+<img src = "https://raw.githubusercontent.com/MYEONGJOONIL/Sound_Visualization/master/thumbnail/thumbnail.jpg" width = "300">
+
 ## 1. Overview
 - **Project Name : Sound Visualization**
 - **Project starts from one simple question.**  
