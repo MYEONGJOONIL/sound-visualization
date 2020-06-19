@@ -21,7 +21,7 @@
   ```python
   # 0-2.Option Description
   > python main_sv.py -h
-    -i : Inout audio file path. Default path is './sample/sample_1.wav'
+    -i : Input audio file path. Default path is './sample/sample_1.wav'
     -b : background color. 0 is black, 1 is white. Default value is 0(black)
   ```
 - **1. Importing Libraries / Color Palettes :**  
@@ -39,7 +39,7 @@
   ```
 - **3. Extracting Datas from Audio File :**  
   ```python
-  # 3-1.Onset Envelope | 2.Beats | 3.Onsets
+  # 3-1.Onset Envelope | 3-2.Beats | 3-3.Onsets
   onset_frames = librosa.onset.onset_detect(sig, sr = sr)
   onsets = librosa.frames_to_time(onset_frames, sr = sr)
   onset_env = librosa.onset.onset_strength(sig, sr = sr, aggregate = np.median)
@@ -157,7 +157,7 @@
 - **8. Exporting Output Files :**  
   ```python
   # Output to PNG file
-  export_png(p, filename = o_opt)   # According to input file name
+  export_png(p, filename = o_opt)   # ouput file name according to input file name
   ```
 
 ## 4. Version

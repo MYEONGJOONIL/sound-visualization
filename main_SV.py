@@ -24,7 +24,7 @@ for opt, arg in opts:
             raise ValueError("")
 
     elif opt == "-h":
-        print("-i : Inout audio file path. Default path is './sample/sample_1.wav'")
+        print("-i : Input audio file path. Default path is './sample/sample_1.wav'")
         print("-b : background color. 0 is black, 1 is white. Default value is 0(black)")
 
 
@@ -50,7 +50,7 @@ sig, sr = librosa.load(audio_data, sr = 44100)
 
 # 3_Extacting Datas From Audio ====================================================================
 
-# 3-1.Onset Envelope | 2.Beats | 3.Onsets ---------------------------------------------------------
+# 3-1.Onset Envelope | 3-2.Beats | 3-3.Onsets -----------------------------------------------------
 onset_frames = librosa.onset.onset_detect(sig, sr = sr)
 onsets = librosa.frames_to_time(onset_frames, sr = sr)
 onset_env = librosa.onset.onset_strength(sig, sr = sr, aggregate = np.median)
