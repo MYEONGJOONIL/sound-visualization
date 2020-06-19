@@ -1,4 +1,4 @@
-<img src = "https://raw.githubusercontent.com/MYEONGJOONIL/Sound_Visualization/master/thumbnail/thumbnail.jpg" width = "350">
+<img src = "https://raw.githubusercontent.com/MYEONGJOONIL/Sound_Visualization/master/thumbnail/thumbnail.jpg" width = "400">
 
 ## 1. Overview
 - **Project Name : Sound Visualization**
@@ -22,7 +22,7 @@
   # 0-2.Option Description
   > python main_sv.py -h
     -i : Input audio file path. Default path is './sample/sample_1.wav'
-    -b : background color. 0 is black, 1 is white. Default value is 0(black)
+    -b : Background color. 0 is black, 1 is white. Default value is 0(black)
   ```
 - **1. Importing Libraries / Color Palettes :**  
   ```python

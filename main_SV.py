@@ -25,7 +25,7 @@ for opt, arg in opts:
 
     elif opt == "-h":
         print("-i : Input audio file path. Default path is './sample/sample_1.wav'")
-        print("-b : background color. 0 is black, 1 is white. Default value is 0(black)")
+        print("-b : Background color. 0 is black, 1 is white. Default value is 0(black)")
 
 
 # 1_Importing Modules and Packages ================================================================
