@@ -44,7 +44,7 @@ from bokeh.palettes import Inferno256
 
 # 2_Loading Audio Files ===========================================================================
 
-audio_data = i_opt
+audio_data = i_opt   # Default path is './sample/sample_1.wav'
 sig, sr = librosa.load(audio_data, sr = 44100)
 
 
@@ -176,7 +176,7 @@ p.line(y4_4, x4_4, line_color = colors_4, line_dash = "dotted", line_width = 0.6
 # 7_Setting Plot Properties =======================================================================
 
 # Background Properties
-p.background_fill_color = b_opt
+p.background_fill_color = b_opt   # Default value is "black"
 p.background_fill_alpha = 1
 
 # Outline Properties
@@ -203,4 +203,4 @@ p.toolbar_location = None
 # 8_Exporting Output Files =======================================================================
 
 # Output to PNG file
-export_png(p, filename = o_opt)
+export_png(p, filename = o_opt)   # ouput file name according to input file name
