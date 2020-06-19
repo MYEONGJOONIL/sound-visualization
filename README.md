@@ -45,7 +45,7 @@
   left_frequency = frequency[:len(magnitude_dB)/2]
   ```
 
-- **4. Prepocessing Datas for Visualization :**  
+- **4. Preproocessing Datas for Visualization :**  
   ```python
   # 1.Onset Envelope
   E = len(onset_env)            
